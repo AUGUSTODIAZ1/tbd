@@ -127,7 +127,7 @@ html {
 
 .container-user .fa-user {
 	font-size: 3rem;
-	color: rgb(0, 0, 0);
+	color: rgb(6, 1, 1);
 	padding-right: 2.5rem;
 	border-right: 1px solid #e2e2e2;
 }
@@ -987,7 +987,7 @@ ion-icon {
 
 	.container-blogs {
 		overflow: hidden;
-		grid-template-columns: 1fr 1fr;
+		/* grid-template-columns: 1fr 1fr 1fr; */
 
 		height: 52rem;
 	}
@@ -1068,8 +1068,16 @@ ion-icon {
 	}
 
 	.container-blogs {
+		display: flex;
+		flex-direction: column;
 		grid-template-columns: 1fr;
-		height: 75rem;
+		height: 100%;
+	}
+
+	.btn-read-more {
+		display: flex;
+		justify-content: center;
+		text-align: center;
 	}
 
 	.content-blog h3 {
@@ -1088,10 +1096,25 @@ ion-icon {
 		font-size: 1.8rem;
 	}
 
+	
+	.my-account p {
+		
+		text-align: center;
+	}
+	
 	.contact-info ul,
-	.information ul,
-	.my-account ul{
-		display: none;
+	.information  ul,
+	.my-account ul {
+		
+		text-align: center;
+	}
+
+	.newsletter p {
+		text-align: center;
+	}
+
+	.content{
+		text-align: center;
 	}
 
 	.contact-info {
