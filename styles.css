@@ -2,7 +2,7 @@
 
 :root {
 	--primary-color: #a9bcce;
-	--background-color: #ebe7e2;
+	--background-color: #f5ebdef9;
 	--dark-color: #272323;
 }
 
@@ -127,7 +127,7 @@ html {
 
 .container-user .fa-user {
 	font-size: 3rem;
-	color: var(--primary-color);
+	color: rgb(0, 0, 0);
 	padding-right: 2.5rem;
 	border-right: 1px solid #e2e2e2;
 }
