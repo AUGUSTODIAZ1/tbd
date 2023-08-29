@@ -49,6 +49,10 @@ html {
 	box-sizing: border-box;
 }
 
+.logo-img {
+	width: 70px;
+	height: 70px;
+}
 
 .soporte {
 	color: #000;
